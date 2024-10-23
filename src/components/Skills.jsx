@@ -7,11 +7,10 @@ import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
 import Express from "../assets/express.jpeg";
 import GitHub from "../assets/github.png";
-import Tailwind from "../assets/tailwind.png";
 import Mongo from "../assets/mongo.png";
-import Linux from "../assets/linux.png";
 import Fabric from "../assets/fabric.png";
-import Docker from "../assets/docker.png";
+import Sql from "../assets/sql.png";
+import VS from "../assets/vs.png";
 
 const Skills = () => {
   return (
@@ -61,20 +60,16 @@ const Skills = () => {
             <p className="my-4">NODE JS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
-            <p className="my-4">TAILWIND</p>
+            <img className="w-20 mx-auto" src={Sql} alt="HTML icon" />
+            <p className="my-4">MySQL</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Linux} alt="HTML icon" />
-            <p className="my-4">LINUX</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Docker} alt="HTML icon" />
-            <p className="my-4">DOCKER</p>
+            <img className="w-20 mx-auto" src={VS} alt="HTML icon" />
+            <p className="my-4">VS CODE</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Fabric} alt="HTML icon" />
-            <p className="my-4">FABRIC</p>
+            <p className="my-4">HYPERLEDGER FABRIC</p>
           </div>
         </div>
       </div>
